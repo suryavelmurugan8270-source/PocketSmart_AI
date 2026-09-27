@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jewelry Planner</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>Jewelry Planner</h2>
+    <form method="post" action="/generate-jewelry" enctype="multipart/form-data">
+        <input type="number" name="budget" placeholder="Budget">
+        <input type="text" name="occasion" placeholder="Occasion">
+        <input type="file" name="image">
+        <button type="submit">Get Jewelry Suggestions</button>
+    </form>
+</body>
+</html>
